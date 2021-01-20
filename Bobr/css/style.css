@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;500;700&display=swap');
+
+.wraper{
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+    font-family: 'Alegreya Sans';
+    position: relative;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.wraper__polygon__1{
+    position: absolute;
+    width: 8%;
+}
+
+.wraper__polygon__2{
+    position: absolute;
+    left: 92%;
+    width: 8%;
+}
+
+.welcome{
+    font-weight: 500;
+    font-size: 65px;
+    margin: 0;
+}
+
+.welcome_sub{
+    font-size: 35px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.logo{
+    
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.logo__text{
+    margin: 0;
+    font-size: 88px;
+}
+
+.info{
+    font-weight: 200;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.5);
+    margin:0;
+    background-color: white;
+    position: absolute;
+    top:0;
+    padding: 0 20px;
+}
+
+.info__sub{
+    font-weight: 200;
+    font-size: 32px;
+    
+}
+
+.line{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.line::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #742092;
+    position:absolute;
+    top:calc(50% - 2px);
+}
+
+.contact__wraper{
+    height: 200px;
+    position: relative; 
+}
+
+.contact__telegram__wraper{
+    margin-top: 85px;
+}
+
+.contact__telegram{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.contact__telegram span{
+    font-weight: 200;
+    font-size: 40px
+}
+
+.contact__telegram img {
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.contact__email__wraper{
+    margin-top: 25px;
+}
+
+.contact__email{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact__email span{
+    font-weight: 20;
+    font-size: 40px
+}
+
+.contact__email img{
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.contact__sphere__wraper{
+
+}
+
+.contact__sphere{
+    position: absolute;
+    background-color: #FFC973;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    top: -50px;
+    left: calc(50% - (650px / 2));
+    z-index: -1;
+    
+}
+
+footer{
+    position: relative;
+}
+
+footer img{
+   
+    width: 100%;
+    height: 100%;
+    
+}
+footer::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 7px;
+    background-color: #742092;
+    position:absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 720px){
+    .welcome{
+        margin-top: 30px;
+        font-size: 45px;
+    }
+    .welcome_sub{
+        font-size: 25px;
+    }
+    .logo__text{
+        font-size: 55px;
+    }
+    .info{
+        font-size: 25px;
+        padding-top:10px ;
+    }
+}
