@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;500;700&display=swap');
 
 .wraper{
     overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 body{
@@ -16,29 +21,35 @@ body{
 
 .wraper__polygon__1{
     position: absolute;
-    width: 8%;
+    width: 7%;
 }
 
 .wraper__polygon__2{
     position: absolute;
-    left: 92%;
-    width: 8%;
+    left: 93%;
+    width: 7%;
 }
 
 .welcome{
     font-weight: 500;
     font-size: 65px;
-    margin: 0;
+    margin: 75px 0 0 0;
+    line-height: 1;
+    
 }
 
 .welcome_sub{
     font-size: 35px;
     font-weight: 200;
     margin: 0;
+    line-height: 1;
+}
+
+.logo__wraper{
+    margin-top: 30px;
 }
 
 .logo{
-    
     margin: 0 auto;
     max-width: 200px;
 }
@@ -49,7 +60,7 @@ body{
 
 .logo__text{
     margin: 0;
-    font-size: 88px;
+    font-size: 80px;
 }
 
 .info{
@@ -66,14 +77,15 @@ body{
 .info__sub{
     font-weight: 200;
     font-size: 32px;
-    
+    line-height: 1;
+    margin: 0;
 }
 
 .line{
     position: relative;
     display: flex;
     justify-content: center;
-    padding: 30px 0;
+    padding: 30px 0 20px 0;
 }
 .line::before{
     content: "";
@@ -104,7 +116,7 @@ body{
 }
 
 .contact__telegram span{
-    font-weight: 200;
+    font-weight: 300;
     font-size: 40px
 }
 
@@ -128,7 +140,7 @@ body{
 }
 
 .contact__email span{
-    font-weight: 20;
+    font-weight: 300;
     font-size: 40px
 }
 
@@ -137,10 +149,6 @@ body{
     left: 0px;
     height: 100%;
     margin-right: 20px;
-}
-
-.contact__sphere__wraper{
-
 }
 
 .contact__sphere{
