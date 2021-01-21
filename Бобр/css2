@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;500;700&display=swap');
+.wraper{
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    margin: 0;
+    font-family: 'Alegreya Sans';
+    position: relative;
+    overflow: hidden;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.wraper__polygon__1{
+    position: absolute;
+    width: 6%;
+}
+
+.wraper__polygon__2{
+    position: absolute;
+    left: 94%;
+    width: 6%;
+}
+
+.welcome{
+    font-weight: 500;
+    font-size: 45px;
+    margin: 35px 0 0 0;
+    line-height: 1;
+    
+}
+
+.welcome_sub{
+    font-size: 26px;
+    font-weight: 200;
+    margin: 0;
+    line-height: 1;
+}
+
+.logo__wraper{
+    margin-top: 20px;
+}
+
+.logo{
+    margin: 0 auto;
+    max-width: 180px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.logo__text{
+    margin: 0;
+    font-size: 58px;
+}
+
+.info{
+    font-weight: 200;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.5);
+    margin:0;
+    background-color: white;
+    position: absolute;
+    top:0;
+    padding: 0 16px;
+}
+
+.info__sub{
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 1;
+    margin: 0;
+}
+
+.line{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 16px 0;
+}
+.line::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #742092;
+    position:absolute;
+    top:calc(50% - 2px);
+}
+
+.contact__wraper{
+    height: 120px;
+    position: relative; 
+}
+
+.contact__telegram__wraper{
+    margin-top: 55px;
+}
+
+.contact__telegram{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 210px;
+    margin: 0 auto;
+}
+
+.contact__telegram span{
+    font-weight: 300;
+    font-size: 30px
+}
+
+.contact__telegram img {
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.contact__email__wraper{
+    margin-top: 15px;
+}
+
+.contact__email{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.contact__email span{
+    font-weight: 300;
+    font-size: 30px
+}
+
+.contact__email img{
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    margin-right: 15px;
+}
+
+.contact__sphere{
+    position: absolute;
+    background-color: #FFC973;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    top: -50px;
+    left: calc(50% - (500px / 2));
+    z-index: -1;
+    
+}
+
+footer{
+    margin: 0;
+    position: relative;
+}
+
+footer img{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    
+}
+footer::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 7px;
+    background-color: #742092;
+    position:absolute;
+    bottom: 0;
+}
+
+
+@media screen and (min-height: 500px) and (max-height: 600px){
+    .welcome{
+        margin-top: 32px;
+        font-size: 35px;
+    }
+    .contact__wraper{
+        height: 90px;
+    }
+    .logo__text{
+        margin-top: 20px;
+    }
+    .logo__text{
+        margin-top: 0px;
+        font-size: 42px;
+    }
+    .info{
+       
+        font-size: 26px;
+        padding: 0 15px;
+    }
+
+    .info__sub{
+        font-size: 22px;
+    }
+}
+
+
+
+@media screen and (min-height: 600px) and (max-height: 650px){
+    .welcome{
+        margin-top: 40px;
+        font-size: 45px;
+    }
+    .wraper__polygon__1{
+        width: 7%;
+    }
+    
+    .wraper__polygon__2{
+        left: 93%;
+        width: 7%;
+    }
+    .contact__wraper{
+        height: 100px;
+    }
+    .logo__text{
+        margin-top: 15px;
+    }
+    .logo__wraper {
+        margin: 20;
+    }
+ 
+}
+@media screen and (min-height: 650px) and (max-height: 700px){
+    .welcome{
+        margin-top: 22px;
+        font-size: 45px;
+    }
+    .wraper__polygon__1{
+        width: 7%;
+    }
+    
+    .wraper__polygon__2{
+        left: 93%;
+        width: 7%;
+    }
+    .contact__wraper{
+        height: 100px;
+    }
+    .logo__text{
+        margin-top: 15px;
+    }
+    .logo__wraper {
+        margin: 10px;
+    }
+    footer{
+        margin-top: 40px;
+    }
+}
+@media screen and (min-height: 700px){
+    .welcome{
+        margin-top: 35px;
+        font-size: 45px;
+    }
+    .wraper__polygon__1{
+        width: 7%;
+    }
+    
+    .wraper__polygon__2{
+        left: 93%;
+        width: 7%;
+    }
+    .contact__wraper{
+        height: 120px;
+    }
+    .logo__text{
+        margin-top: 45px;
+    }
+    .logo__wraper{
+        margin-top: 55px;
+    }
+}
+
+@media screen and (min-height: 670px){
+    .welcome{
+        margin-top: 45px;
+    }
+}
+
+@media screen and (min-height: 800px){
+    .welcome{
+        font-size: 44px;
+        margin: 64px 0 0 0;
+    }
+    .welcome_sub{
+        font-size: 28px;
+        font-weight: 200;
+    }
+    
+
+    .logo{
+        max-width: 200px;
+    }
+    .logo__text{
+        margin: 30px 0 0 0;
+        font-size: 56px;
+    }
+    .info{
+        
+        font-size: 26px;
+        padding: 0 20px;
+    }
+
+    .info__sub{
+        font-size: 28px;
+    }
+    .contact__wraper{
+        height: 120px;
+    }
+    .contact__telegram__wraper{
+        margin-top: 75px;
+    }
+
+}
+
+@media screen and (min-height: 870px){
+    .welcome{
+        font-size: 44px;
+        margin: 64px 0 0 0;
+    }
+    .logo__text{
+        margin: 40px 0 0 0;
+        font-size: 56px;
+    }
+}
+
+
+@media screen and (min-height: 1000px) and (max-height: 1150px){
+    .welcome{
+        font-weight: 500;
+        font-size: 68px;
+        margin: 85px 0 0 0;
+    }
+    .welcome_sub{
+        font-size: 38px;
+        font-weight: 200;
+        
+        
+    }
+    .logo__wraper{
+        margin-top: 40px;
+    }
+
+    .logo{
+        max-width: 200px;
+    }
+    .logo__text{
+        margin: 20px 0 0 0;
+        font-size: 85px;
+    }
+    .info{
+        font-weight: 200;
+        font-size: 46px;
+        padding: 0 20px;
+    }
+
+    .info__sub{
+        margin-top: 20px;
+        font-size: 38px;
+    }
+    .contact__telegram__wraper{
+        margin-top: 95px;
+    }
+    .contact__telegram span{
+        font-size: 38px
+    }
+    .contact__telegram{
+        max-width: 280px;
+    }
+    .contact__email{
+        max-width: 340px;
+    }
+    .contact__email span{
+        font-size: 38px
+    }
+}
+
+@media screen and (min-width: 1000px){
+    footer{
+        margin: 0;
+    }
+}
